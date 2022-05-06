@@ -45,8 +45,13 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+
+# With ruby 3.1 Matrix is now a dedicated gem
+gem 'matrix'
+
 
 group :development, :test do
   gem 'rspec-rails'
