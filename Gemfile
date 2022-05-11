@@ -44,7 +44,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 gem 'sassc-rails'
-gem 'bootsrap-sass', '~>3.4.1'
+gem 'bootstrap-sass', '~>3.4.1'
 gem 'autoprefixer-rails', '~>10.4.7.0'
 
 
